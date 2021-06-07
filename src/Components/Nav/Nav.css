@@ -2,8 +2,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
-    background: light-blue;
+    min-height: 10vh; 
     color:white;
     list-style:none;
 

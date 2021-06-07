@@ -1,5 +1,6 @@
 
-import React from 'react';
+import React, { Component } from 'react';
+import { FaAlignRight } from 'react-icons/fa';
 import './App.css';
 import Nav from '../Nav/Nav';
 import About from '../About/About';

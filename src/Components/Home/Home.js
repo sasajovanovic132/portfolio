@@ -20,8 +20,8 @@ const Home = () => {
                         'Designer', 1000,
                         'Open Sourcer', 1000,
                         'Chess Player', 1000,
-                        'Husband', 1000,
-                        'Father', 1000,
+                        /*'Husband', 1000,
+                        'Father', 1000,*/
                         'Based in Philadelphia', 1000
                     ]}
 

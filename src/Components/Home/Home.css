@@ -23,7 +23,10 @@
     
     font-family: 'Inconsolata';
     font-size: 2em;
-    color:white;
+    color: white;
+    position:absolute;
+    top: 19%;
+    left: 50%;
  
 }
 
@@ -31,9 +34,12 @@
     font-family: 'Inconsolata';
     font-size: 1em;
     color:white;
+        position:absolute;
+    top: 25%;
+    left: 52%;
 }
 .Home-Header{
-    align-content: right;
+   
 }
 
 /*.Home{   
@@ -50,7 +56,9 @@
     height:auto;
     border-radius: 50%;
     margin-right:40%;
-    
+    position:absolute;
+    top: 27%;
+    left: 18%;
       min-width: 250px;
      
 }
