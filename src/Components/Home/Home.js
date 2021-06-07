@@ -9,7 +9,7 @@ const Home = () => {
     return (
         // <div className='Home'>
         <header className='Home-Header'>
-            <img className="profile-photo" src={myPhoto} alt={"Sasa Jovanovic"} />
+
             <div className="Name-Quote">
                 <h1 className="name">Sasa Jovanovic</h1>
                 <p className="quote">  <Typical
@@ -27,6 +27,7 @@ const Home = () => {
 
                 /></p>
             </div>
+            <img className="profile-photo" src={myPhoto} alt={"Sasa Jovanovic"} />
 
         </header>
         //</div>
