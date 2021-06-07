@@ -38,10 +38,12 @@
 
 }
 .Name-Quote{
-    min-width: 300px;
+ 
+   
     position:absolute;
     top: 20%;
     left: 52%;
+    
 }
 
 /*.Home{   
@@ -62,7 +64,7 @@
     margin-right:40%;
     position:absolute;
     top: 33%;
-    left: 18%;
+    left: 5%;
       min-width: 200px;
      
 }

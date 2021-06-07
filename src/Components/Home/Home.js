@@ -9,7 +9,6 @@ const Home = () => {
     return (
         // <div className='Home'>
         <header className='Home-Header'>
-
             <div className="Name-Quote">
                 <h1 className="name">Sasa Jovanovic</h1>
                 <p className="quote">  <Typical
@@ -22,7 +21,7 @@ const Home = () => {
                         'Chess Player', 1000,
                         /*'Husband', 1000,
                         'Father', 1000,*/
-                        'Based in Philadelphia', 1000
+                        'Based in Philly', 1000
                     ]}
 
                 /></p>
