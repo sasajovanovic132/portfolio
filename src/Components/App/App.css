@@ -1,7 +1,11 @@
 .App{
     text-align: center;
-    color:rgb(11, 205, 197)
+    font-family: 'Poppins', sans-serif;
     
+    
+}
+li:hover {
+	color:rgb(11, 205, 197);
 }
 .videoTag{
   /* Make video to at least 100% wide and tall */
@@ -13,12 +17,13 @@
   z-index:-1;
   background-size: cover; transition: 1s opacity; 
   background-color:black;
-    opacity:1.5;
+    opacity:0.9;
  
    
 }
 
 nav{
+
     min-width:300px;
     display:flex;
     justify-content: space-around;
@@ -28,6 +33,7 @@ nav{
     background-color: black;
     color:rgb(11, 205, 197)
 }
+
 .nav-links{
     min-width:200px;
     width:45%;
@@ -35,7 +41,7 @@ nav{
     align-items: center;
     justify-content:space-around;
     list-style:none;
-    color:rgb(11, 205, 197);
+    
    
 }
 
