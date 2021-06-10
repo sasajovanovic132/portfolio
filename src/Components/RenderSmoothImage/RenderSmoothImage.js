@@ -13,10 +13,10 @@ function RenderSmoothImage({ src, alt, width, height }) {
 
     return (
         <div className="smooth-image-wrapper">
-            <img id="mainPhoto"
+            <img id='mainPhoto'
                 height={height}
                 width={width}
-                height='50%'
+                height={height}
                 src={src}
                 alt={alt}
                 className={`smooth-image image-${imageLoaded ? 'visible' : 'hidden'

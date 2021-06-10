@@ -47,7 +47,7 @@
     left: 14%;
       min-width: 200px;
       z-index: 1;
-
+    margin-top:2.5rem;
 }
 
 .Name-Quote{
@@ -58,7 +58,17 @@
     
    
 }
-
+ @media screen and (max-width: 699px){
+    .name{
+        font-size: 2rem;
+    }
+    .quote{
+        font-size: 1rem;
+    }
+    .Name-Qoute{
+       padding-right: 3rem;
+    }
+ }
 
 /*.Home{   
    height:100%;
