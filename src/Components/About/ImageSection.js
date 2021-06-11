@@ -7,7 +7,7 @@ function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="imgAbout">
-                <RenderSmoothImage src={aboutPhoto} alt='about' />
+                <RenderSmoothImage src={aboutPhoto} alt='about-photo' />
             </div>
             <div className="about-info">
 
@@ -16,7 +16,7 @@ function ImageSection() {
                     <Typical
                         wrapper="b"
                         steps={[1700,
-                            'I am full stack developer living in Philadelphia, PA with my wife and daughter. My work is based on desigmning and creating dinamic and responsive applications.  Outside work I am a chess player, teacher and tournament organizer.', 1500
+                            'I am full stack software developer, living in Philadelphia PA ,with my wife and daughter. I work on dinamics and responsivness at front and comlexity and statefullness at back. I am a chess player, teacher and tournament organizer.I like green better than blue because great puzzle can keep me up all night...', 1500
                         ]}
                     />
 

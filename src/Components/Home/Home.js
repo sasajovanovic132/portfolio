@@ -17,6 +17,7 @@ const Home = () => {
                     loop={Infinity}
                     wrapper="b"
                     steps={[3000,
+                        'Programmer', 1500,
                         'Developer', 1500,
                         'Designer', 1500,
                         'Open Sourcer', 1500,

@@ -3,7 +3,9 @@
     justify-content: space-around;
     align-items: center;
     min-height: 10vh; 
-    color:white;
+    color: white;
     list-style:none;
+    position:fixed;
+    
 
 }

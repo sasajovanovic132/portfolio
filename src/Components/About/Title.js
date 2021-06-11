@@ -1,5 +1,4 @@
 import React from 'react';
-import Typical from 'react-typical';
 import './Title.scss';
 
 
@@ -9,7 +8,7 @@ function Title({ title, span }) {
         <div className="Title">
 
             <h3>
-                About Me
+                {title}
                 <span>{span}</span>
             </h3>
         </div>

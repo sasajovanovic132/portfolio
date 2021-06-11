@@ -4,6 +4,10 @@
     
     
 }
+li{
+    color:solid white;
+   
+}
 li:hover {
 	color:rgb(11, 205, 197);
 }
@@ -23,7 +27,10 @@ li:hover {
 }
 
 nav{
-
+      overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
     min-width:300px;
     display:flex;
     justify-content: space-around;
@@ -31,7 +38,8 @@ nav{
     align-items: center;
     min-height: 10vh;
     background-color: black;
-    color:rgb(11, 205, 197)
+    z-index: 20;
+    
 }
 
 .nav-links{
@@ -41,7 +49,7 @@ nav{
     align-items: center;
     justify-content:space-around;
     list-style:none;
-    
+   
    
 }
 

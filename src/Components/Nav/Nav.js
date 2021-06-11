@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 function Nav() {
 
     const navStyle = {
-        color: 'white',
-        'listStyle': 'none',
-        'textDecoration': 'none'
+        color: 'rgb(188, 211, 241)',
+        listStyle: 'none',
+        textDecoration: 'none'
 
     }
 
