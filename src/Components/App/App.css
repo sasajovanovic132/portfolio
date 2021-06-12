@@ -5,7 +5,8 @@
     
 }
 li{
-    color:solid white;
+      color: white;
+    font-weight:300;
    
 }
 li:hover {
@@ -39,7 +40,9 @@ nav{
     min-height: 10vh;
     background-color: black;
     z-index: 20;
-    
+    align-items: center;
+    min-height: 10vh; 
+    list-style:none;
 }
 
 .nav-links{

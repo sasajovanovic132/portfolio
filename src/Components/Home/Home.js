@@ -31,7 +31,7 @@ const Home = () => {
                 /></p>
             </div>
             <div className='mainPhoto'>
-                <RenderSmoothImage id="mainPhoto" src={myPhoto} alt='sasa' />
+                <RenderSmoothImage src={myPhoto} alt='sasa' height='75%' width="75%" />
             </div>
         </header>
         //</div>

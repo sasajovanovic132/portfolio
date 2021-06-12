@@ -36,11 +36,11 @@
     z-index: 5;
 
 }
-#mainPhoto{
+.mainPhoto{
    
     width:25%;
     height:auto;
-    border-radius: 50%;
+   border-radius: 50%;
     margin-right:40%;
     position:absolute;
     top: 33%;
@@ -49,6 +49,7 @@
       z-index: 1;
     margin-top:2.5rem;
 }
+
 
 .Name-Quote{
     position:absolute;

@@ -13,7 +13,7 @@ function RenderSmoothImage({ src, alt, width, height }) {
 
     return (
         <div className="smooth-image-wrapper">
-            <img id='mainPhoto'
+            <img
                 height={height}
                 width={width}
                 height={height}

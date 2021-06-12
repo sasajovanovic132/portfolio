@@ -11,10 +11,10 @@ import SkillsSection from './SkillsSection';
 function About() {
     return (
         <div className="About">
-            <Title title={'About'} span={'About Me'} />
+            <Title title={'AbouT'} span={'About Me'} />
             <ImageSection />
             <br></br>
-            <Title className='skill-title' title={' Skills'} span={'Skills'} />
+            <Title className='skill-title' title={' SkillS'} span={'Skills'} />
             <div className="skillsContainer">
                 <SkillsSection skill={'Web Design'} progress={'70%'} width={'70%'} />
                 <SkillsSection skill={'Command Line'} progress={'50%'} width={'50%'} />
