@@ -16,7 +16,6 @@ function RenderSmoothImage({ src, alt, width, height }) {
             <img
                 height={height}
                 width={width}
-                height={height}
                 src={src}
                 alt={alt}
                 className={`smooth-image image-${imageLoaded ? 'visible' : 'hidden'

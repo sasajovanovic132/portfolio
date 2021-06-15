@@ -1,5 +1,5 @@
 .smooth-image {
-  transition: opacity 3.5s;
+  transition: opacity 1s;
 }
 .image-visible {
   opacity: 1;

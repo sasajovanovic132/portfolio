@@ -1,0 +1,64 @@
+.ImageSection{
+    
+    height:100%;
+    width:100%;
+}
+.imgAbout{
+     background-color:#191D2B ;
+    height:100%;
+    width:100%;
+    .smooth-image-wrapper{
+        width: 100%;
+        height:100%;
+        .smooth-image {
+  transition: opacity 30s;
+}
+.image-visible {
+  opacity: 0.2;
+}
+        img{
+            width:100%;
+            height:100%;
+            
+        }
+    }
+}
+@media screen and (min-width: 700px){
+    .image-text{
+        height:40vh;
+    }
+
+}
+
+
+.image-text{
+    
+
+    padding-bottom: 1rem;  
+    font-weight:bold;
+    position:relative;
+    width:100%;
+    height:100%;
+   
+    .ImageSection{
+        position:absolute;
+        top:0;
+        left:0; 
+         }
+    .about-info{
+      
+        position:absolute;
+        top:0.5rem;
+        left:5vw;
+        .about-text{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 0.2rem;
+            line-height: 1.3rem; 
+            height:100%;
+            width:100%;
+            color:#bcd3f1;
+            font-size:auto;
+        }
+    }
+}

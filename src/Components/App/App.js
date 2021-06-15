@@ -7,7 +7,7 @@ import Nav from '../Nav/Nav';
 import About from '../About/About';
 import RenderSmoothImage from '../RenderSmoothImage/RenderSmoothImage';
 import Projects from '../Projects/Projects';
-import Contact from '../Contact/Contact';
+import ContactPage from '../ContactPage/ContactPage';
 import Home from '../Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -28,7 +28,7 @@ function App() {
             <Route path='/' exact component={Home} />
             <Route path='/about' component={About} />
             <Route path='/projects' component={Projects} />
-            <Route path='/contact' component={Contact} />
+            <Route path='/contact' component={ContactPage} />
           </Switch>
           <video id='video' className='videoTag' autoPlay loop muted>
             <source src={sampleVideo} type='video/mp4' />

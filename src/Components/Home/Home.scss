@@ -36,11 +36,11 @@
     z-index: 5;
 
 }
+
+
 .mainPhoto{
-   
     width:25%;
     height:auto;
-   border-radius: 50%;
     margin-right:40%;
     position:absolute;
     top: 33%;
@@ -48,6 +48,12 @@
       min-width: 200px;
       z-index: 1;
     margin-top:2.5rem;
+    img{
+        border-radius:50%;
+        border:1px solid #579e9c;
+        box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+    }
+
 }
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import myPhoto from './myPhoto.JPG';
 import Typical from 'react-typical';
 import RenderSmoothImage from '../RenderSmoothImage/RenderSmoothImage';
-import './Home.css';
+import './Home.scss';
 import { render } from '@testing-library/react';
 
 
